@@ -258,4 +258,5 @@
         <image name="icon_back" width="13" height="23"/>
         <image name="icon_next" width="13" height="23"/>
     </resources>
+    <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
 </document>
