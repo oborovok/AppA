@@ -8,6 +8,9 @@ target 'AppA' do
   # Pattern
     pod 'RxSwift', '~> 3.5'
     pod 'RxCocoa'
+    
+    #Realm
+    pod 'Realm'
 
   #Statistic
     pod 'Fabric'
