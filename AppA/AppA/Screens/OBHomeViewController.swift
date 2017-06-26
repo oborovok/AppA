@@ -9,7 +9,12 @@
 import UIKit
 
 class OBHomeViewController: UIViewController {
-
+    // MARK: - Properties
+    @IBOutlet weak var wordView: UIView!
+    @IBOutlet weak var synonymView: UIView!
+    @IBOutlet weak var discribeView: UIView!
+    
+    // MARK: -
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +26,6 @@ class OBHomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 

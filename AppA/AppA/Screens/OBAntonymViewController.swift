@@ -9,7 +9,10 @@
 import UIKit
 
 class OBAntonymViewController: UIViewController {
+    // MARK: - Properties
+    @IBOutlet weak var tableView: UITableView!
 
+    // MARK: - Life Cicle
     override func viewDidLoad() {
         super.viewDidLoad()
 
