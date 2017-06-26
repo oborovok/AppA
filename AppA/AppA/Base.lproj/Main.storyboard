@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-788" y="38"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AppA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="OBHomeViewController" customModule="AppA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -182,20 +182,20 @@
         <!--Page View Controller-->
         <scene sceneID="P7u-fu-giv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eZa-qg-MKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="5CN-PE-1W0" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="5CN-PE-1W0" customClass="OBPageViewController" customModule="AppA" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
                         <segue destination="JAS-ue-Adw" kind="show" id="Nxa-3l-op9"/>
                         <segue destination="iZj-e4-enl" kind="show" id="DFk-7H-ruy"/>
                     </connections>
                 </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eZa-qg-MKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1116" y="38"/>
         </scene>
-        <!--View Controller-->
+        <!--Synonym View Controller-->
         <scene sceneID="Q5a-7s-Xrb">
             <objects>
-                <viewController id="JAS-ue-Adw" sceneMemberID="viewController">
+                <viewController id="JAS-ue-Adw" customClass="OBSynonymViewController" customModule="AppA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bso-54-8m5"/>
                         <viewControllerLayoutGuide type="bottom" id="lhY-17-Jpb"/>
@@ -222,10 +222,10 @@
             </objects>
             <point key="canvasLocation" x="718" y="380"/>
         </scene>
-        <!--View Controller-->
+        <!--Antonym View Controller-->
         <scene sceneID="UF3-K3-nUx">
             <objects>
-                <viewController id="iZj-e4-enl" sceneMemberID="viewController">
+                <viewController id="iZj-e4-enl" customClass="OBAntonymViewController" customModule="AppA" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IAR-Aj-ahg"/>
                         <viewControllerLayoutGuide type="bottom" id="n5g-Is-yXK"/>
